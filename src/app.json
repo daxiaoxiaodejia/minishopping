@@ -3,15 +3,13 @@
     "pages/index/main",
     "pages/logs/main"  ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#ea4451",
+    "navigationBarTitleText": "优购"
   },
   "tabBar": {
-    "color": "#999",
-    "backgroundColor": "#fafafa",
-    "selectedColor": "#333",
+    "color": "#363636",
+    "backgroundColor": "#fff",
+    "selectedColor": "#ea4451",
     "borderStyle": "white",
 
     "list": [{
@@ -20,7 +18,17 @@
       "iconPath": "static/tabs/home.png",
       "selectedIconPath": "static/tabs/home-active.png"
     }, {
-      "text": "订单",
+      "text": "分类",
+      "pagePath": "pages/logs/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }, {
+      "text": "购物车",
+      "pagePath": "pages/logs/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }, {
+      "text": "我的",
       "pagePath": "pages/logs/main",
       "iconPath": "static/tabs/orders.png",
       "selectedIconPath": "static/tabs/orders-active.png"
